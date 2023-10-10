@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 7rem;
+    font-family: 'Bree Serif', serif;
+    color: #0000ff;
+}
+
+h1 span {
+    opacity: 0.7;
+    font-size: 2rem;
+}
+
+#yearlySalesChart { 
+    padding: 25px;
+    background-color: white;
+    width: fit-content;
+    max-width: 800px;
+    min-width: 300px;
+    border: 1px solid #dfdfdf;
+}
+
+p {
+    color: #38383a;
+    font-size: larger;
+    font-family: 'Bree Serif', serif;
+}
+
+ul {
+    align-self: first baseline;
+    font-family: 'Bree Serif', serif;
+    font-size: large;
+    color: #38383a;
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        overflow-x: hidden;
+    }
+    main {
+        height: auto;
+    }
+    #yearlySalesChart {
+        width: 100%;
+        padding: 0;
+    }
+    h1 {
+        font-size: 3rem;
+        font-family: 'Bree Serif', serif;
+        color: #0000ff;
+    }
+    
+    h1 span {
+        opacity: 0.7;
+        font-size: 1rem;
+    }
+}
